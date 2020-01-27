@@ -23,11 +23,12 @@ function product() {
       if (palindrom(ans)) {
         if(max < ans){
           max = ans;
-          console.log("palindrom product is ", i +'*' +j +'='+ ans);
+          //console.log("palindrom product is ", i +'*' +j +'='+ ans);
         }
       }
     }
   }
+  console.log("max is", max);
 }
 
 product();
